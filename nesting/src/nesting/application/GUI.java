@@ -117,7 +117,7 @@ public class GUI extends Application {
                 smallestEnclosingCircleCriterion);
 
         // Create radio buttons and toggle groups for tuple nesting criterion selection
-
+        
         RadioButton convexHullForPairs = new RadioButton(
                 "Convex Hull Criterion");
         RadioButton smallestEnclosingCircleForPairs = new RadioButton(
@@ -285,7 +285,6 @@ public class GUI extends Application {
         // Show in web view
         File htmlFile = new File(
                 System.getProperty("user.dir") + "/" + htmlFileName);
-        System.out.println(htmlFile.toURI().toString());
         webEngine.load(htmlFile.toURI().toString());
     }
 
