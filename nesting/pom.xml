@@ -27,6 +27,14 @@
         </archive>
       </configuration>
     </plugin>
+    <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.1</version>
+        <configuration>
+            <mainClass>HelloFX</mainClass>
+        </configuration>
+    </plugin>  
     </plugins>
   </build>
   <dependencies>
@@ -35,5 +43,15 @@
   		<artifactId>commons-csv</artifactId>
   		<version>1.9.0</version>
   	</dependency>
+  <dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>11</version>
+  </dependency>
+    <dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-web</artifactId>
+    <version>11</version>
+  </dependency>
   </dependencies>
 </project>
